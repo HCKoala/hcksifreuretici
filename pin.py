@@ -37,7 +37,7 @@ if tkk=="e" or tkk=="E":
         print("halaycekenkoala@gmail.com");
         input();
     elif b=="website":
-        os.system("start chrome.exe halaycekenkoala.blogspot.com");
+        os.system("start chrome.exe halaycekenkoala.com");
     else:
         print("HATALI GİRİŞ");
         input();
@@ -62,7 +62,7 @@ elif tkk=="h" or tkk=="H":
         print("Bu amatör program daha kuvvetli şifreler üretmek için HCKoala tarafından yazılmıştır.");
         input();
     elif b=="iletisim":
-        print("halaycekenkoala@gmail.com");
+        print("admin@halaycekenkoala.com");
         input();
     elif b=="website":
         os.system("start chrome.exe halaycekenkoala.blogspot.com");
