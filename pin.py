@@ -65,7 +65,7 @@ elif tkk=="h" or tkk=="H":
         print("admin@halaycekenkoala.com");
         input();
     elif b=="website":
-        os.system("start chrome.exe halaycekenkoala.blogspot.com");
+        os.system("start chrome.exe halaycekenkoala.com");
     else:
         print("HATALI GİRİŞ");
         input();
