@@ -12,7 +12,7 @@ print("||  ||   || |||||| ||  || ||||||| ||       ||  |||||| ||       ||     ||"
 print("||                                                                    ||")
 print("*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*");
 print("\nHCKoala Şifre Üreticiye Hoşgeldiniz.");
-tkk=input("\nŞifrede Türkçe karakter kullanılsınmı ? [E/H]\n");
+tkk=input("\nŞifrede Türkçe karakter kullanılsın mı ? [E/H]\n");
 if tkk=="e" or tkk=="E":
     klist=["!","+","#","?","&","%","*","é","'","/","-",".","ş","ğ","ı","ç","ö"];
     pinlist=[random.randint(0,100),random.randint(0,100),random.choice(kelist),random.choice(klist),random.randint(0,100),
@@ -34,7 +34,7 @@ if tkk=="e" or tkk=="E":
         print("Bu amatör program daha kuvvetli şifreler üretmek için HCKoala tarafından yazılmıştır.");
         input();
     elif b=="iletisim":
-        print("halaycekenkoala@gmail.com");
+        print("admin@halaycekenkoala.com");
         input();
     elif b=="website":
         os.system("start chrome.exe halaycekenkoala.com");
@@ -64,7 +64,7 @@ elif tkk=="h" or tkk=="H":
     elif b=="iletisim":
         print("admin@halaycekenkoala.com");
         input();
-    elif b=="website":
+    elif b=="Website":
         os.system("start chrome.exe halaycekenkoala.com");
     else:
         print("HATALI GİRİŞ");
